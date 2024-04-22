@@ -7,7 +7,6 @@ import ServiceListPage from './components/ServiceListPage';
 
 function App() {
   return (
-    <Router>
       <div className="App">
         <nav>
           <ul>
@@ -23,7 +22,6 @@ function App() {
             <Route path="/services" element={<ServiceListPage />} />
         </Routes>
       </div>
-    </Router>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
